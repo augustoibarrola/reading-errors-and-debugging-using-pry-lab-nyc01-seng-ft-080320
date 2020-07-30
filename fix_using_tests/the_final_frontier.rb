@@ -11,6 +11,5 @@ end
 
 def engage(state_log)
  "#{state_log}, Greetings, crewmembers"
-puts "test"
+ binding.pry
 end
-binding.pry
