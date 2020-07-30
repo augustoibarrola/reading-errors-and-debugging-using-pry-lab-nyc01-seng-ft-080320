@@ -9,7 +9,7 @@ def state_log(star_date)
 end
 
 
-def engage(date)
+def engage(state_log)
  "#{state_log(1)}, Greetings, crewmembers"
 puts "test"
 end
