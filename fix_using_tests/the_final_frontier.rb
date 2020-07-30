@@ -11,4 +11,5 @@ end
 
 def engage
 return "#{state_log}, Greetings, crewmembers"
+binding.pry
 end
