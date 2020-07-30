@@ -13,4 +13,3 @@ def engage(date)
   date = generate_star_date
   "Greetings, crewmembers!"
 end
-binding.pry
