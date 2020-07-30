@@ -10,5 +10,5 @@ end
 
 
 def engage
-  "#{state_log}", Greetings, crewmembers
+  "#{state_log}, Greetings, crewmembers"
 end
