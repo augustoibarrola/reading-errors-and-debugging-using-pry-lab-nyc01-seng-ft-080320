@@ -10,7 +10,7 @@ end
 
 
 def engage
+  binding.pry
  "#{state_log}, Greetings, crewmembers"
-binding.pry
 puts "test"
 end
