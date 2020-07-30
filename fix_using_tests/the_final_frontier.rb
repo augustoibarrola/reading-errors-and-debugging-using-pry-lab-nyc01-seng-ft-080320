@@ -10,7 +10,7 @@ end
 
 
 def engage(state_log)
- "#{state_log(1)}, Greetings, crewmembers"
+ "#{state_log}, Greetings, crewmembers"
 puts "test"
 end
 binding.pry
