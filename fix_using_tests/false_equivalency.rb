@@ -4,16 +4,18 @@ def get_user_input
   gets.chomp
 end
 
-def prompt_user
+def prompt_user #creates a function called prompt_user
   puts "What would you like to do?"
   puts "1.) Eat a hamburger."
   puts "2.) Eat a ham."
-end
+end #prints "what would you likr to do?"; 1.) eat a hamburger.; 2.) eat a ham.
+    # ends defining the method
+    # prompt_user is a method that when called will print the above.
 
 def selection(num)
-  if num = 1
+  if num == 1
      "YUM YUM MUNCH MUNCH MUNCH"
-  elsif num = 2
+  elsif num == 2
      "HAM HAM HAM IN MY TUMMY"
   end
 end
