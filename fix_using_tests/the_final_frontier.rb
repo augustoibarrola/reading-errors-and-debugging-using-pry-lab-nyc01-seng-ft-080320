@@ -10,6 +10,5 @@ def state_log(star_date)
 end
 
 def engage
-  date = generate_star_date
-  p "#{state_log(date)}, Greetings, crewmembers!"
+  p "#{state_log}, Greetings, crewmembers!"
 end
