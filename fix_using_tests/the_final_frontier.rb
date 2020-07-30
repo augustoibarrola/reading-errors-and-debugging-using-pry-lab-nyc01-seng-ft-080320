@@ -10,5 +10,5 @@ end
 
 
 def engage
-p  "#{state_log}, Greetings, crewmembers"
+return "#{state_log}, Greetings, crewmembers"
 end
